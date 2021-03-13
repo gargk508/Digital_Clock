@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+body {
+  position: relative;
+  max-width: 100vw;
+  min-width: 360px;
+  min-height: 100vh;
+  background-color: #f0e4d7;
+  padding: 50px;
+}
+
+.main_div {
+  color: #26001b;
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-size: 3.5rem;
+  letter-spacing: 5px;
+}
+
+#clock {
+  width: 100%;
+  font-size: 3rem;
+  letter-spacing: 8px;
+  font-family: "Orbitron", sans-serif;
+}
+
+.alarm-btn {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 40%;
+  letter-spacing: 2px;
+  font-weight: bold;
+  border: 2px solid #26001b;
+  justify-content: center;
+  background: transparent;
+}
+
+.alarm-name {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.Alarm-input {
+  display: none;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.alarm-input-select {
+  padding: 10px;
+  width: 30%;
+  font-weight: bold;
+}
+
+.alarm-input-button {
+  padding: 10px;
+  width: 30%;
+  font-weight: bold;
+  display: none;
+  margin: 20px auto;
+}
+
+.alarm {
+  height: 100px;
+  width: 100%;
+  margin-bottom: 15px;
+  border: 5px solid #26001b;
+  text-align: left;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete-btn {
+  width: 15%;
+  height: 70%;
+  background-color: transparent;
+  border: 2px solid #26001b;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.alarm-text {
+  width: 40%;
+  font-size: 20px;
+}
+
+@media (max-width: 1020px) {
+  body {
+    position: relative;
+    max-width: 100vw;
+    min-width: 360px;
+    min-height: 100vh;
+    background-color: #f0e4d7;
+    padding: 50px;
+  }
+
+  .main_div {
+    color: #26001b;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+  }
+
+  h1 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+  }
+
+  #clock {
+    width: 100%;
+    font-size: 1rem;
+    letter-spacing: 8px;
+    font-family: "Orbitron", sans-serif;
+  }
+
+  .alarm-btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 40%;
+    letter-spacing: 2px;
+    font-weight: bold;
+    border: 2px solid #26001b;
+    justify-content: center;
+    background: transparent;
+  }
+
+  .alarm-name {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  .Alarm-input {
+    display: none;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+
+  .alarm-input-select {
+    padding: 10px;
+    width: 30%;
+    font-weight: bold;
+  }
+
+  .alarm-input-button {
+    padding: 10px;
+    width: 30%;
+    font-weight: bold;
+    display: none;
+    margin: 20px auto;
+  }
+
+  .alarm {
+    height: 100px;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 5px solid #26001b;
+    text-align: left;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .delete-btn {
+    width: 15%;
+    height: 70%;
+    background-color: transparent;
+    border: 2px solid #26001b;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+
+  .alarm-text {
+    width: 40%;
+    font-size: 20px;
+  }
+}
