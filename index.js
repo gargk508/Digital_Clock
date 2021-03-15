@@ -6,7 +6,7 @@ function showtime() {
   var seconds = d.getSeconds();
   var minutes = d.getMinutes();
   var hours = d.getHours();
-  var session = hours > 12 ? "PM" : "AM";
+  var session = hours >= 12 ? "PM" : "AM";
   hours = hours > 12 ? hours - 12 : hours;
   var hours = hours < 10 ? "0" + hours : hours;
   var minutes = minutes < 10 ? "0" + minutes : minutes;
@@ -85,7 +85,7 @@ function ringalarm() {
   var minutes = d.getMinutes();
   var hours = d.getHours();
   var session = hours > 12 ? "PM" : "AM";
-  hours = hours > 12 ? hours - 12 : hours;
+  hours = hours >= 12 ? hours - 12 : hours;
   var hours = hours < 10 ? "0" + hours : hours;
   var minutes = minutes < 10 ? "0" + minutes : minutes;
   var seconds = seconds < 10 ? "0" + seconds : seconds;
